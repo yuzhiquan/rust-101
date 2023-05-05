@@ -1,3 +1,5 @@
+use logging::add;
+
 fn main() {
     greet_world();
 }
@@ -14,6 +16,7 @@ fn greet_world(){
     }
     known = "known2";
     eprint!("{:?}",known)
-
+    
+    add(3,2 right);
 
 }

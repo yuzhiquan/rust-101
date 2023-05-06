@@ -1,7 +1,9 @@
+mod fmt_test;
 use logging::add;
 
 fn main() {
     greet_world();
+    fmt_test::debug_test();
 }
 
 fn greet_world(){
@@ -15,8 +17,8 @@ fn greet_world(){
         println!("{}",r)
     }
     known = "known2";
-    eprint!("{:?}",known)
+    eprint!("{:?}\n",known);
     
-    add(3,2 right);
+    print!("{}", add(3,2));
 
 }
